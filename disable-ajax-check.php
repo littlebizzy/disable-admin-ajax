@@ -71,8 +71,7 @@ final class DisableAJAXCheck {
 		// Avoid WP admin referer calls
 		if (false !== stripos($parts['path'], '/wp-admin/'))
 			return;
-error_log('disable...');
-error_log(print_r($parts, true));
+
 		// This is the end
 		wp_die('0', 400);
 	}
