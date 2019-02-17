@@ -1,0 +1,16 @@
+{
+    "name": "littlebizzy/disable-admin-ajax",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "homepage": "https://www.littlebizzy.com/plugins/disable-admin-ajax",
+    "description": "Completely disables frontend access to admin-ajax.php regardless of Heartbeat settings, to avoid unwanted AJAX calls and vastly improve performance.",
+    "keywords": ["wordpress","plugin","disable","remove","block","admin-ajax","admin","ajax","queries","loading","slow"],
+    "support": {
+        "issues": "https://github.com/littlebizzy/disable-admin-ajax/issues",
+        "forum": "https://www.littlebizzy.com/members"
+    }
+    "require": {
+        "php": "^7.2",
+        "composer/installers": "~1.0"
+    }
+}
